@@ -8,7 +8,7 @@ extends Control
 ## Single-row window: only one symbol is visible at a time, sitting at the
 ## top of this control's rect. That symbol is always symbols[current_index].
 
-const SYMBOL_SIZE := 220.0
+const SYMBOL_SIZE := 176.0  # matches reel_frame.png's inner window
 const SPIN_SPEED := 1400.0  # px/sec while freely spinning
 const STOP_TWEEN_TIME := 0.9
 const EXTRA_LAPS_ON_STOP := 1  # extra full strip loops before landing, for feel
