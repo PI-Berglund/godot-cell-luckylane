@@ -1,0 +1,12 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://cells/luckylane/scripts/luckylane_level_3.gd" id="1_ll3a0"]
+
+[node name="LuckylaneLevel3" type="Control" unique_id=1000000004]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ll3a0")
