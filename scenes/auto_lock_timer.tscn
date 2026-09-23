@@ -1,0 +1,47 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://cells/luckylane/scripts/auto_lock_timer.gd" id="1_timer"]
+[ext_resource type="Texture2D" path="res://cells/luckylane/resources/images/ui/auto_lock_timer_frame.png" id="2_frame"]
+
+[node name="AutoLockTimer" type="Control" unique_id=3100000001]
+custom_minimum_size = Vector2(600, 200)
+layout_mode = 0
+visible = false
+script = ExtResource("1_timer")
+
+[node name="TimerFill" type="ColorRect" parent="."]
+layout_mode = 1
+anchor_left = 0.186
+anchor_top = 0.3895
+anchor_right = 0.8131
+anchor_bottom = 0.5912
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.82, 0.14, 0.12, 1)
+
+[node name="TimerFrame" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_frame")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="SecondsLabel" type="Label" parent="."]
+layout_mode = 1
+anchor_left = 0.8458
+anchor_top = 0.3785
+anchor_right = 0.9544
+anchor_bottom = 0.6133
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.22, 0.14, 0.06, 1)
+theme_override_font_sizes/font_size = 48
+horizontal_alignment = 1
+vertical_alignment = 1
+text = ""
