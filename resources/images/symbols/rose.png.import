@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ca6enhrpuv20j"
-path="res://.godot/imported/seven.png-9b8e2408ce93b8ef077dd49e9a6edf35.ctex"
+uid="uid://d1xn6vai7nd5u"
+path="res://.godot/imported/rose.png-2357958be58f3033e1295a73a6b42593.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cells/luckylane/resources/images/symbols/seven.png"
-dest_files=["res://.godot/imported/seven.png-9b8e2408ce93b8ef077dd49e9a6edf35.ctex"]
+source_file="res://cells/luckylane/resources/images/symbols/rose.png"
+dest_files=["res://.godot/imported/rose.png-2357958be58f3033e1295a73a6b42593.ctex"]
 
 [params]
 

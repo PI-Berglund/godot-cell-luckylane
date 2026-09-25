@@ -302,7 +302,7 @@ func _spin_all() -> void:
 		reel.spin()
 
 
-## data: { "reel_index": 0-3, "symbol": "cherry" }
+## data: { "reel_index": 0-3, "symbol": "logo" }
 func _stop_reel(reel_index: int, symbol: String) -> void:
 	if reel_index >= 0 and reel_index < reels.size():
 		reels[reel_index].stop_on_symbol(symbol)

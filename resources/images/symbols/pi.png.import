@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bq81bai50cn0u"
-path="res://.godot/imported/bell.png-694cbe9d69b1028d1a0d9df6be282a89.ctex"
+uid="uid://ckq15koenf065"
+path="res://.godot/imported/pi.png-1241212c32cd82f7c6b1f12ba1e5b8d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cells/luckylane/resources/images/symbols/bell.png"
-dest_files=["res://.godot/imported/bell.png-694cbe9d69b1028d1a0d9df6be282a89.ctex"]
+source_file="res://cells/luckylane/resources/images/symbols/pi.png"
+dest_files=["res://.godot/imported/pi.png-1241212c32cd82f7c6b1f12ba1e5b8d6.ctex"]
 
 [params]
 

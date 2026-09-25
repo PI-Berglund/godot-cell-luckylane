@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cieo5iwkgpjyb"
-path="res://.godot/imported/star.png-3708bf2ea17d97a3996bc8bd5453aeff.ctex"
+uid="uid://duop320733k2c"
+path="res://.godot/imported/logo.png-28aa53c1e8a9cfd9196e4470873d6b50.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cells/luckylane/resources/images/symbols/star.png"
-dest_files=["res://.godot/imported/star.png-3708bf2ea17d97a3996bc8bd5453aeff.ctex"]
+source_file="res://cells/luckylane/resources/images/symbols/logo.png"
+dest_files=["res://.godot/imported/logo.png-28aa53c1e8a9cfd9196e4470873d6b50.ctex"]
 
 [params]
 

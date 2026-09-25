@@ -138,7 +138,12 @@ func stop_on_symbol(symbol: String) -> void:
 	var strip_height: float = symbols.size() * row_height
 	var target_index := _find_next_symbol_index(symbol)
 
-	var target_offset: float = target_index * row_height
+	## strip.position.y runs the strip in the opposite direction from a
+	## naive "index * row_height" offset (scrolling forward reveals
+	## descending strip indices), so the offset that actually lands
+	## target_index in the window is its mirror image around the strip
+	## length, not target_index itself.
+	var target_offset: float = float((symbols.size() - target_index) % symbols.size()) * row_height
 	while target_offset <= scroll_offset:
 		target_offset += strip_height
 	target_offset += EXTRA_LAPS_ON_STOP * strip_height
@@ -220,13 +225,13 @@ func _load_symbol_texture(symbol: String) -> Texture2D:
 
 func _placeholder_color(symbol: String) -> Color:
 	match symbol:
-		"cherry":
+		"logo":
 			return Color(0.8, 0.1, 0.1)
-		"seven":
+		"giovanni":
 			return Color(0.1, 0.1, 0.8)
-		"bell":
+		"pi":
 			return Color(0.9, 0.7, 0.1)
-		"star":
+		"rose":
 			return Color(0.6, 0.1, 0.8)
 		_:
 			return Color(0.3, 0.3, 0.3)

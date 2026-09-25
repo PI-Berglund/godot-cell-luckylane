@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://djgab7dlhecbr"
-path="res://.godot/imported/cherry.png-12948508629f363bd2d0b74186560738.ctex"
+uid="uid://dw5iebjuulayu"
+path="res://.godot/imported/giovanni.png-a28cc9432367eaa85d21b04e6f870719.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cells/luckylane/resources/images/symbols/cherry.png"
-dest_files=["res://.godot/imported/cherry.png-12948508629f363bd2d0b74186560738.ctex"]
+source_file="res://cells/luckylane/resources/images/symbols/giovanni.png"
+dest_files=["res://.godot/imported/giovanni.png-a28cc9432367eaa85d21b04e6f870719.ctex"]
 
 [params]
 
